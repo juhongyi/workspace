@@ -3,7 +3,8 @@
   "permission": {
     "external_directory": {
       "~/.local/share/opencode/worktree/**": "allow",
-      "~/.config/opencode/**": "allow"
+      "~/.config/opencode/**": "allow",
+      "/tmp/**": "allow"
     },
     "edit": {
       "~/.config/opencode/**": "deny"
